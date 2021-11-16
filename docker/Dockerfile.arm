@@ -1,0 +1,11 @@
+FROM arm32v7/alpine:3.14@sha256:8595fe2e98735305ca7cbc68399d428d8bf1857daf13511db56a43e079ef960b
+
+LABEL maintainer="ownCloud DevOps <devops@owncloud.com>"
+LABEL org.opencontainers.image.authors="ownCloud DevOps <devops@owncloud.com>"
+LABEL org.opencontainers.image.title="drone-cancel-previous-builds"
+LABEL org.opencontainers.image.url="https://github.com/owncloud-ci/drone-cancel-previous-builds"
+LABEL org.opencontainers.image.source="https://github.com/owncloud-ci/drone-cancel-previous-builds"
+LABEL org.opencontainers.image.documentation="https://github.com/owncloud-ci/drone-cancel-previous-builds"
+
+ADD release/linux/arm/drone-cancel-previous-builds /bin/
+ENTRYPOINT ["/bin/drone-cancel-previous-builds"]

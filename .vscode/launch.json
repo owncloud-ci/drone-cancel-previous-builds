@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "drone-cancel-previous-builds",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/cmd/drone-cancel-previous-builds",
+            "env": {
+                "PLUGIN_DRONE_TOKEN": "ey...",
+            }
+        },
+    ]
+}

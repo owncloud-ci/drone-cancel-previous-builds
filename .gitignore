@@ -1,0 +1,6 @@
+/release/
+/drone-cancel-previous-builds*
+
+coverage.out
+.drone.yml
+CHANGELOG.md
