@@ -13,7 +13,7 @@ require (
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5
-	honnef.co/go/tools v0.3.0
+	honnef.co/go/tools v0.3.1
 )
 
 require (
