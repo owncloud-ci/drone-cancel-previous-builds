@@ -10,7 +10,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sirupsen/logrus v1.9.2 // indirect
 	github.com/urfave/cli/v2 v2.27.5
-	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
+	golang.org/x/lint v0.0.0-20241112194109-818c5a804067
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/oauth2 v0.15.0
 	honnef.co/go/tools v0.4.6
