@@ -2,7 +2,7 @@ module github.com/owncloud-ci/drone-cancel-previous-builds
 
 go 1.23.0
 
-toolchain go1.24.1
+toolchain go1.25.0
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
