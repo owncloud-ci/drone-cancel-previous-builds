@@ -1,8 +1,6 @@
 module github.com/owncloud-ci/drone-cancel-previous-builds
 
-go 1.23.0
-
-toolchain go1.25.0
+go 1.25.0
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
@@ -13,7 +11,7 @@ require (
 	github.com/sirupsen/logrus v1.9.2 // indirect
 	github.com/urfave/cli/v2 v2.27.7
 	golang.org/x/lint v0.0.0-20241112194109-818c5a804067
-	golang.org/x/oauth2 v0.30.0
+	golang.org/x/oauth2 v0.36.0
 	honnef.co/go/tools v0.6.1
 )
 
